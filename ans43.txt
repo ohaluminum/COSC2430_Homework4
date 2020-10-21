@@ -1,0 +1,159 @@
+Max time: 7
+Number of processes: 26
+Number of servers: 3
+
+Process: 1
+Execution time: 66
+Wait Time: 77
+Start Time: 0
+End Time: 143
+
+Process: 2
+Execution time: 4
+Wait Time: 0
+Start Time: 0
+End Time: 4
+
+Process: 3
+Execution time: 3
+Wait Time: 0
+Start Time: 0
+End Time: 3
+
+Process: 4
+Execution time: 2
+Wait Time: 3
+Start Time: 3
+End Time: 5
+
+Process: 5
+Execution time: 4
+Wait Time: 4
+Start Time: 4
+End Time: 8
+
+Process: 6
+Execution time: 5
+Wait Time: 5
+Start Time: 5
+End Time: 10
+
+Process: 7
+Execution time: 33
+Wait Time: 67
+Start Time: 7
+End Time: 100
+
+Process: 8
+Execution time: 33
+Wait Time: 70
+Start Time: 8
+End Time: 103
+
+Process: 9
+Execution time: 44
+Wait Time: 79
+Start Time: 10
+End Time: 123
+
+Process: 10
+Execution time: 5
+Wait Time: 14
+Start Time: 14
+End Time: 19
+
+Process: 11
+Execution time: 2
+Wait Time: 15
+Start Time: 15
+End Time: 17
+
+Process: 12
+Execution time: 4
+Wait Time: 17
+Start Time: 17
+End Time: 21
+
+Process: 13
+Execution time: 2
+Wait Time: 17
+Start Time: 17
+End Time: 19
+
+Process: 14
+Execution time: 2
+Wait Time: 19
+Start Time: 19
+End Time: 21
+
+Process: 15
+Execution time: 4
+Wait Time: 19
+Start Time: 19
+End Time: 23
+
+Process: 16
+Execution time: 2
+Wait Time: 21
+Start Time: 21
+End Time: 23
+
+Process: 17
+Execution time: 5
+Wait Time: 21
+Start Time: 21
+End Time: 26
+
+Process: 18
+Execution time: 44
+Wait Time: 80
+Start Time: 23
+End Time: 124
+
+Process: 19
+Execution time: 33
+Wait Time: 75
+Start Time: 23
+End Time: 108
+
+Process: 20
+Execution time: 33
+Wait Time: 79
+Start Time: 26
+End Time: 112
+
+Process: 21
+Execution time: 5
+Wait Time: 30
+Start Time: 30
+End Time: 35
+
+Process: 22
+Execution time: 4
+Wait Time: 30
+Start Time: 30
+End Time: 34
+
+Process: 23
+Execution time: 2
+Wait Time: 33
+Start Time: 33
+End Time: 35
+
+Process: 24
+Execution time: 3
+Wait Time: 34
+Start Time: 34
+End Time: 37
+
+Process: 25
+Execution time: 4
+Wait Time: 35
+Start Time: 35
+End Time: 39
+
+Process: 26
+Execution time: 66
+Wait Time: 81
+Start Time: 35
+End Time: 147
