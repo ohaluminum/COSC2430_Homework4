@@ -4,6 +4,120 @@
 #include "ArgumentManager.h"
 using namespace std;
 
+struct process
+{
+    int processNumber;
+    int executionTime;
+    int waitTime;
+    int startTime;
+    int endTime;
+
+    process* next;
+};
+
+class queue
+{
+private:
+    process* front;
+    process* back;
+    int size;
+
+public:
+
+    queue()
+    {
+        front = nullptr;
+        back = nullptr;
+        size = 0;
+    }
+
+    bool isEmpty()
+    {
+        if (size == 0)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    process* getFront()
+    {
+        return front;
+    }
+
+    process* getBack()
+    {
+        return back;
+    }
+
+    //Add the new precess at the end of the queue
+    void push(int number, int execution, int wait, int start, int end)
+    {
+        //1.Create a temp process
+        process* temp = new process;
+
+        //2.Fill the data
+        temp->processNumber = number;
+        temp->executionTime = execution;
+        temp->waitTime = wait;
+        temp->startTime = start;
+        temp->endTime = end;
+
+        temp->next = nullptr;
+
+        //3.Update the pointer
+        if (isEmpty())
+        {
+            front = temp;
+            back = temp;
+        }
+
+        else if (size > 0)
+        {
+            back->next = temp;
+            back = temp;
+        }
+
+        //4.Update the size
+        size++;
+    }
+
+    //Delete the process at the beginning of the queue 
+    void pop()
+    {
+        //1.Create a temp precoss
+        process* temp = new process;
+        temp = front;
+
+        //2.Update the pointer
+        if (isEmpty())
+        {
+            return;
+        }
+
+        else if (size == 1)
+        {
+            front = nullptr;
+            back = nullptr;
+        }
+
+        else if (size > 1)
+        {
+            front = front->next;
+        }
+
+        //3.Delete the first process
+        delete temp;
+
+        //4.Update the size
+        size--;
+    }
+};
+
+
+
+
 int main(int argc, char* argv[])
 {
     ArgumentManager am(argc, argv);
