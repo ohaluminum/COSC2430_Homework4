@@ -1,0 +1,4 @@
+Max time: 7
+Number of processes: 26
+Number of servers: 3
+

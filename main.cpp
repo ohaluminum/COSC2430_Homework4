@@ -165,20 +165,28 @@ int main(int argc, char* argv[])
         int numOfServer = 0;
         int executionTime = 0;
 
-        queue ProcessQueue;
-        queue completedProcess;
-
         int timer = 0;
         process* temp;
 
         //Read input file 
         inFS >> maxTime >> numOfProcess >> numOfServer;
 
+        //Write output file
+        outFS << "Max time: " << maxTime << endl;
+        outFS << "Number of processes: " << numOfProcess << endl;
+        outFS << "Number of servers: " << numOfServer << endl << endl;
+
+        //Create a queue as process queue
+        queue ProcessQueue;
+
         for (int i = 0; i < numOfProcess; i++)
         {
             inFS >> executionTime;
             ProcessQueue.push(i + 1, executionTime, 0, 0, 0, executionTime, 0);
         }
+
+        //Create a queue as completed queue
+        queue completedProcess;
 
         //Create a dynamic array as server station 
         process** server = new process*[numOfServer];
@@ -189,15 +197,26 @@ int main(int argc, char* argv[])
             server[i] = nullptr;
         }
 
-        //If the queue is not empty (has process left)
-        while (completedProcess.getSize() != numOfProcess)
+        //If the queue is not full (has process left)
+        while (completedProcess.getSize() < numOfProcess)
         {
+            //If the next process execution time is 0, it should be completed immediately
+            while (!ProcessQueue.isEmpty() && ProcessQueue.getFront()->executionTime == 0)
+            {
+                ProcessQueue.getFront()->startTime = timer;
+                ProcessQueue.getFront()->endTime = timer;
+
+                completedProcess.push(ProcessQueue.getFront()->processNumber, ProcessQueue.getFront()->executionTime, ProcessQueue.getFront()->waitTime, ProcessQueue.getFront()->startTime, ProcessQueue.getFront()->endTime, 0, 0);
+
+                ProcessQueue.pop();
+            }
+
             //Fill the available server: These tasks are in-process!
             for (int i = 0; i < numOfServer; i++)
             {
+                //If the server is empty and the process queue has process left
                 if (server[i] == nullptr && !ProcessQueue.isEmpty())
                 {
-                    cout << "yes" << endl;
                     server[i] = new process;
                     server[i]->processNumber = ProcessQueue.getFront()->processNumber;
                     server[i]->executionTime = ProcessQueue.getFront()->executionTime;
@@ -209,18 +228,11 @@ int main(int argc, char* argv[])
 
                     ProcessQueue.pop();
 
+                    //If the process is a new process (not re-start process)
                     if (server[i]->executionTime == server[i]->remainingTime)
                     {
                         server[i]->startTime = timer;
                     }
-
-                    if (server[i]->remainingTime == 0)
-                    {
-                        server[i]->endTime = timer;
-                    }                                                                         //DELETE
-
-
-                    cout << i << " " << server[i]->processNumber << server[i]->executionTime << server[i]->waitTime << server[i]->startTime << server[i]->endTime << server[i]->remainingTime << server[i]->currentTime << endl;
                 }
             }
 
@@ -234,36 +246,32 @@ int main(int argc, char* argv[])
             {
                 temp->waitTime = temp->waitTime + 1;
 
-                cout << temp->waitTime << endl;                              //DELETE!!!
-
                 temp = temp->next;
             }
 
             //Check if tasks are completed
             for (int i = 0; i < numOfServer; i++)
             {
-                //If the server is working
+                //If the server is working on process
                 if (server[i] != nullptr)
                 {
                     server[i]->remainingTime = server[i]->remainingTime - 1;
                     server[i]->currentTime = server[i]->currentTime + 1;
 
-                    cout << i << " " << server[i]->processNumber << server[i]->executionTime << server[i]->waitTime << server[i]->startTime << server[i]->endTime << server[i]->remainingTime << server[i]->currentTime << endl;
-                                                                           //DELETE
                     if (server[i]->remainingTime == 0)
                     {
                         server[i]->endTime = timer;
-                        completedProcess.push(server[i]->processNumber, server[i]->executionTime, server[i]->waitTime, server[i]->startTime, server[i]->endTime, 0, server[i]->currentTime);
+
+                        completedProcess.push(server[i]->processNumber, server[i]->executionTime, server[i]->waitTime, server[i]->startTime, server[i]->endTime, 0, 0);
 
                         //Clear server for the next task
                         server[i] = nullptr;
                     }
-                    
+
                     else if (server[i]->currentTime == maxTime)
                     {
-                        cout << "y" << endl;
                         ProcessQueue.push(server[i]->processNumber, server[i]->executionTime, server[i]->waitTime, server[i]->startTime, server[i]->endTime, server[i]->remainingTime, 0);
-                    
+
                         //Clear server for the next task
                         server[i] = nullptr;
                     }
@@ -271,13 +279,18 @@ int main(int argc, char* argv[])
             }
         }
 
-
         process* head = completedProcess.getFront();
         while (head != nullptr)
         {
             cout << head->processNumber << " " << head->executionTime << " " << head->waitTime << " " << head->startTime << " " << head->endTime << endl;
             head = head->next;
         }
+
+
+
+
+
+
 
         
         
