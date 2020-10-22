@@ -1,0 +1,21 @@
+Max time: 2
+Number of processes: 3
+Number of servers: 2
+
+Process: 1
+Execution time: 3
+Wait Time: 0
+Start Time: 0
+End Time: 3
+
+Process: 2
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 3
+Execution time: 5
+Wait Time: 1
+Start Time: 1
+End Time: 6

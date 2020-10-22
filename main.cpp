@@ -59,6 +59,43 @@ public:
         return size;
     }
 
+    void print(int numOfProcess, ofstream& outFS)
+    {
+        //1.Create a temp process
+        process* temp = new process;
+
+        for (int i = 1; i <= numOfProcess; i++)
+        {
+            temp = front;
+
+            while (temp != nullptr)
+            {
+                //If find the position of target number
+                if (temp->processNumber == i)
+                {
+                    outFS << "Process: " << temp->processNumber << endl;
+                    outFS << "Execution time: " << temp->executionTime << endl;
+                    outFS << "Wait Time: " << temp->waitTime << endl;
+                    outFS << "Start Time: " << temp->startTime << endl;
+
+                    //If it is the last process
+                    if (i == numOfProcess)
+                    {
+                        outFS << "End Time: " << temp->endTime;
+                    }
+                    else
+                    {
+                        outFS << "End Time: " << temp->endTime << endl << endl;
+                    }
+
+                    break;
+                }
+
+                temp = temp->next;
+            }
+        }
+    }
+
     //Add the new precess at the end of the queue
     void push(int number, int execution, int wait, int start, int end, int remaining, int currentTime)
     {
@@ -279,21 +316,11 @@ int main(int argc, char* argv[])
             }
         }
 
-        process* head = completedProcess.getFront();
-        while (head != nullptr)
-        {
-            cout << head->processNumber << " " << head->executionTime << " " << head->waitTime << " " << head->startTime << " " << head->endTime << endl;
-            head = head->next;
-        }
-
-
-
-
-
-
+        //Write output file 
+        completedProcess.print(numOfProcess, outFS);
 
         
-        
+
     }
     catch (runtime_error & e)
     {

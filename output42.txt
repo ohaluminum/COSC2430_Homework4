@@ -1,0 +1,15 @@
+Max time: 3
+Number of processes: 2
+Number of servers: 4
+
+Process: 1
+Execution time: 9
+Wait Time: 0
+Start Time: 0
+End Time: 9
+
+Process: 2
+Execution time: 3
+Wait Time: 0
+Start Time: 0
+End Time: 3
