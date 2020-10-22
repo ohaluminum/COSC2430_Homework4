@@ -115,9 +115,6 @@ public:
     }
 };
 
-
-
-
 int main(int argc, char* argv[])
 {
     ArgumentManager am(argc, argv);
@@ -153,7 +150,27 @@ int main(int argc, char* argv[])
             throw runtime_error("ERROR: File is empty");
         }
 
+        int maxTime = 0;
+        int numOfProcess = 0;
+        int numOfServer = 0;
+        int executionTime = 0;
+        queue ProcessQueue;
 
+        //Read input file 
+        inFS >> maxTime >> numOfProcess >> numOfServer;
+
+        for (int i = 0; i < numOfProcess; i++)
+        {
+            inFS >> executionTime;
+            ProcessQueue.push(i + 1, executionTime, 0, 0, 0);
+        }
+
+        process* head = ProcessQueue.getFront();
+        while (head != nullptr)
+        {
+            cout << head->processNumber << head->executionTime << endl;
+            head = head->next;
+        }
 
         
         
