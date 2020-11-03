@@ -1,0 +1,303 @@
+Max time: 50
+Number of processes: 50
+Number of servers: 50
+
+Process: 1
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 2
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 3
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 4
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 5
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 6
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 7
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 8
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 9
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 10
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 11
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 12
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 13
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 14
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 15
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 16
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 17
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 18
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 19
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 20
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 21
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 22
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 23
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 24
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 25
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 26
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 27
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 28
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 29
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 30
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 31
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 32
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 33
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 34
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 35
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 36
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 37
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 38
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 39
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 40
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 41
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 42
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 43
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 44
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 45
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 46
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 47
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 48
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 49
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50
+
+Process: 50
+Execution time: 50
+Wait Time: 0
+Start Time: 0
+End Time: 50

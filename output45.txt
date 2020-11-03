@@ -1,0 +1,381 @@
+Max time: 25
+Number of processes: 63
+Number of servers: 16
+
+Process: 1
+Execution time: 100
+Wait Time: 0
+Start Time: 0
+End Time: 100
+
+Process: 2
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 3
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 4
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 5
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 6
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 7
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 8
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 9
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 10
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 11
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 12
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 13
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 14
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 15
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 16
+Execution time: 1
+Wait Time: 0
+Start Time: 0
+End Time: 1
+
+Process: 17
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 18
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 19
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 20
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 21
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 22
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 23
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 24
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 25
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 26
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 27
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 28
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 29
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 30
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 31
+Execution time: 1
+Wait Time: 1
+Start Time: 1
+End Time: 2
+
+Process: 32
+Execution time: 100
+Wait Time: 2
+Start Time: 2
+End Time: 102
+
+Process: 33
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 34
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 35
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 36
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 37
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 38
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 39
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 40
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 41
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 42
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 43
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 44
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 45
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 46
+Execution time: 1
+Wait Time: 2
+Start Time: 2
+End Time: 3
+
+Process: 47
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 48
+Execution time: 100
+Wait Time: 3
+Start Time: 3
+End Time: 103
+
+Process: 49
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 50
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 51
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 52
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 53
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 54
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 55
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 56
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 57
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 58
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 59
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 60
+Execution time: 1
+Wait Time: 3
+Start Time: 3
+End Time: 4
+
+Process: 61
+Execution time: 1
+Wait Time: 4
+Start Time: 4
+End Time: 5
+
+Process: 62
+Execution time: 1
+Wait Time: 4
+Start Time: 4
+End Time: 5
+
+Process: 63
+Execution time: 1
+Wait Time: 4
+Start Time: 4
+End Time: 5

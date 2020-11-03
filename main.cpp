@@ -167,13 +167,12 @@ int main(int argc, char* argv[])
     ArgumentManager am(argc, argv);
 
     //Get the filename of argument name "input" and "output" and "command"
-    //string input = am.get("input");
-    //string output = am.get("output");
-    //string command = am.get("command");
+    string input = am.get("input");
+    string output = am.get("output");
 
     //Test
-    string input = "input43.txt";
-    string output = "output43.txt";
+    //string input = "input47.txt";
+    //string output = "output47.txt";
 
     ifstream inFS;
     ofstream outFS;
@@ -237,20 +236,20 @@ int main(int argc, char* argv[])
         //If the queue is not full (has process left)
         while (completedProcess.getSize() < numOfProcess)
         {
-            //If the next process execution time is 0, it should be completed immediately
-            while (!ProcessQueue.isEmpty() && ProcessQueue.getFront()->executionTime == 0)
-            {
-                ProcessQueue.getFront()->startTime = timer;
-                ProcessQueue.getFront()->endTime = timer;
-
-                completedProcess.push(ProcessQueue.getFront()->processNumber, ProcessQueue.getFront()->executionTime, ProcessQueue.getFront()->waitTime, ProcessQueue.getFront()->startTime, ProcessQueue.getFront()->endTime, 0, 0);
-
-                ProcessQueue.pop();
-            }
-
             //Fill the available server: These tasks are in-process!
             for (int i = 0; i < numOfServer; i++)
             {
+                //If the server is empty and the next process execution time is 0, it should be completed immediately
+                while (server[i] == nullptr && !ProcessQueue.isEmpty() && ProcessQueue.getFront()->executionTime == 0)
+                {
+                    ProcessQueue.getFront()->startTime = timer;
+                    ProcessQueue.getFront()->endTime = timer;
+
+                    completedProcess.push(ProcessQueue.getFront()->processNumber, ProcessQueue.getFront()->executionTime, ProcessQueue.getFront()->waitTime, ProcessQueue.getFront()->startTime, ProcessQueue.getFront()->endTime, 0, 0);
+
+                    ProcessQueue.pop();
+                }
+
                 //If the server is empty and the process queue has process left
                 if (server[i] == nullptr && !ProcessQueue.isEmpty())
                 {
@@ -271,6 +270,7 @@ int main(int argc, char* argv[])
                         server[i]->startTime = timer;
                     }
                 }
+
             }
 
             //One minute passed

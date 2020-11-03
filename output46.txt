@@ -1,0 +1,123 @@
+Max time: 5
+Number of processes: 20
+Number of servers: 5
+
+Process: 1
+Execution time: 2
+Wait Time: 0
+Start Time: 0
+End Time: 2
+
+Process: 2
+Execution time: 3
+Wait Time: 0
+Start Time: 0
+End Time: 3
+
+Process: 3
+Execution time: 4
+Wait Time: 0
+Start Time: 0
+End Time: 4
+
+Process: 4
+Execution time: 2
+Wait Time: 0
+Start Time: 0
+End Time: 2
+
+Process: 5
+Execution time: 3
+Wait Time: 0
+Start Time: 0
+End Time: 3
+
+Process: 6
+Execution time: 4
+Wait Time: 2
+Start Time: 2
+End Time: 6
+
+Process: 7
+Execution time: 2
+Wait Time: 2
+Start Time: 2
+End Time: 4
+
+Process: 8
+Execution time: 3
+Wait Time: 3
+Start Time: 3
+End Time: 6
+
+Process: 9
+Execution time: 4
+Wait Time: 3
+Start Time: 3
+End Time: 7
+
+Process: 10
+Execution time: 2
+Wait Time: 4
+Start Time: 4
+End Time: 6
+
+Process: 11
+Execution time: 6
+Wait Time: 9
+Start Time: 4
+End Time: 15
+
+Process: 12
+Execution time: 7
+Wait Time: 10
+Start Time: 6
+End Time: 17
+
+Process: 13
+Execution time: 8
+Wait Time: 11
+Start Time: 6
+End Time: 19
+
+Process: 14
+Execution time: 6
+Wait Time: 11
+Start Time: 6
+End Time: 17
+
+Process: 15
+Execution time: 7
+Wait Time: 11
+Start Time: 7
+End Time: 18
+
+Process: 16
+Execution time: 8
+Wait Time: 12
+Start Time: 9
+End Time: 20
+
+Process: 17
+Execution time: 6
+Wait Time: 12
+Start Time: 11
+End Time: 18
+
+Process: 18
+Execution time: 7
+Wait Time: 12
+Start Time: 11
+End Time: 19
+
+Process: 19
+Execution time: 8
+Wait Time: 13
+Start Time: 11
+End Time: 21
+
+Process: 20
+Execution time: 6
+Wait Time: 13
+Start Time: 12
+End Time: 19

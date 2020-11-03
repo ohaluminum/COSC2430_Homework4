@@ -47,5 +47,64 @@
     <Text Include="output43.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="ans44.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans45.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans46.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans47.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans48.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans49.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input44.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input45.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input46.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input47.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input48.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input49.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output44.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output45.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output46.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output47.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output48.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output49.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArgumentManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

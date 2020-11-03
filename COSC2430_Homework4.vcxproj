@@ -153,12 +153,33 @@
     <Text Include="ans41.txt" />
     <Text Include="ans42.txt" />
     <Text Include="ans43.txt" />
+    <Text Include="ans44.txt" />
+    <Text Include="ans45.txt" />
+    <Text Include="ans46.txt" />
+    <Text Include="ans47.txt" />
+    <Text Include="ans48.txt" />
+    <Text Include="ans49.txt" />
     <Text Include="input41.txt" />
     <Text Include="input42.txt" />
     <Text Include="input43.txt" />
+    <Text Include="input44.txt" />
+    <Text Include="input45.txt" />
+    <Text Include="input46.txt" />
+    <Text Include="input47.txt" />
+    <Text Include="input48.txt" />
+    <Text Include="input49.txt" />
     <Text Include="output41.txt" />
     <Text Include="output42.txt" />
     <Text Include="output43.txt" />
+    <Text Include="output44.txt" />
+    <Text Include="output45.txt" />
+    <Text Include="output46.txt" />
+    <Text Include="output47.txt" />
+    <Text Include="output48.txt" />
+    <Text Include="output49.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArgumentManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,69 @@
+Max time: 1
+Number of processes: 11
+Number of servers: 3
+
+Process: 1
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 2
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 3
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 4
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 5
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 6
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 7
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 8
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 9
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 10
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
+
+Process: 11
+Execution time: 0
+Wait Time: 0
+Start Time: 0
+End Time: 0
